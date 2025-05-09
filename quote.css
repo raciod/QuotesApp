@@ -1,0 +1,79 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+.container {
+    background-color: #2c2c2c;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+/* Title heading */
+.title {
+    color: #ffcc00;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Quote container */
+.quote-box {
+    background-color: #3a3a3a;
+    padding: 1rem;
+    border-radius: 8px;
+    min-height: 100px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Quote text */
+.quote-text {
+    font-style: italic;
+    color: #ccc;
+}
+
+/* Button */
+.load-btn {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.load-btn:hover {
+    background-color: #e6b800;
+}
+
+/* Optional future image style */
+/*
+.quote-image {
+    margin-top: 1.5rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #ffcc00;
+}
+*/
